@@ -4,8 +4,6 @@ import React from "react"
 
 function Register({h1, form}){
     return(
-    
-        <ThemeProvider>
             <ColorModeProvider>
                 <CSSReset />
                 <Flex justify="center" align="center">
@@ -48,8 +46,6 @@ function Register({h1, form}){
                 
                 
             </ColorModeProvider>
-        </ThemeProvider>
-    
     )
 }
 
