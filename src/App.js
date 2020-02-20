@@ -9,6 +9,7 @@ import { ThemeProvider, Flex } from "@chakra-ui/core"
 
 import './App.css';
 import LandingPage from './components/landingPage';
+import DashBoard from './components/dashboard/Dashboard';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" component={LandingPage} exact/>
         <Route path="/users/login" component={Login} />
         <Route path="/users/register" component={Register} />
+        <Route path="/:userId/boards/" component={DashBoard} />
       </Switch>
       
 
