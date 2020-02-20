@@ -1,5 +1,5 @@
 import React from "react"
-import NavbarSp from "./navbars/specialNav"
+// import NavbarSp from "./navbars/specialNav"
 import Login from "./signing/login"
 import { Button } from "@chakra-ui/core"
 
