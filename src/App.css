@@ -9,8 +9,14 @@
 .header-primary nav{
   display: flex;
   background-color: rgb(2,106,167);
-}
 
+}
+.special-btn{
+  background-color: #6D8EA2 ;
+}
+.css-gmuwbf{
+  margin-top:10px
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

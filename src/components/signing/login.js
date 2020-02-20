@@ -24,7 +24,7 @@ function Login({h1, form}){
                                 <Input type="password" placeholder="Enter Your Password" />
                             </InputGroup>
                         </FormControl>
-                        <Button type="submit" variant="solid" variantColor="blue" boxShadow="sm" _hover={{boxshadow : "md"}} _active={{boxshadow : "lg"}}>Register</Button>
+                        <Button type="submit" variant="solid" variantColor="blue" boxShadow="sm" _hover={{boxshadow : "md"}} _active={{boxshadow : "lg"}}>Login</Button>
                         
                     </Stack>
                 </form>

@@ -9,7 +9,8 @@ function Register({h1, form}){
             <CSSReset />
             {/* <NavbarSp /> */}
             <Flex justify="center" align="center">
-                <form action="submit">
+                
+                <form mt={4} action="submit">
                     <Stack spacing={4} width={400}>
                         <FormControl isRequired>
                             <InputGroup>
