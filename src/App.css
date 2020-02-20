@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.header-primary nav{
+  display: flex;
+  background-color: rgb(2,106,167);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
