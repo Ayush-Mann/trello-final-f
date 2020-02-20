@@ -6,7 +6,6 @@ import React from "react"
 
 function Login({h1, form}){
     return(
-        <ThemeProvider>
             <ColorModeProvider>
                 <CSSReset />
                 <Flex justify="center" align="center">
@@ -33,7 +32,7 @@ function Login({h1, form}){
                 
                 
             </ColorModeProvider>
-        </ThemeProvider>
+        
     
     )
 

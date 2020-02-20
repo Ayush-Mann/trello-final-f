@@ -1,13 +1,15 @@
 import {Input, ThemeProvider, ColorModeProvider, CSSReset, Flex, Box, Stack, InputLeftElement, Icon, InputGroup, Button, FormControl, Divider, FormHelperText} from '@chakra-ui/core'
 import React from "react"
+import NavbarSp from "../navbars/specialNav"
 
 
 function Register({h1, form}){
     return(
-    
+        
         <ThemeProvider>
             <ColorModeProvider>
                 <CSSReset />
+                {/* <NavbarSp /> */}
                 <Flex justify="center" align="center">
                     <form action="submit">
                         <Stack spacing={4} width={400}>
