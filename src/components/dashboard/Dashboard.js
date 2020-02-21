@@ -1,7 +1,7 @@
 import React from "react"
 import { render } from "@testing-library/react"
 import Header from "./miniComponents/header"
-import {Switch, Route} from "react-router-dom"
+// import {Switch, Route} from "react-router-dom"
 import { Box, Heading, Icon, Flex, Link, Divider, IconButton, Image, Text } from "@chakra-ui/core"
 
 
@@ -14,7 +14,7 @@ function DashBoard(){
                     <Box className="aside-btn"  width={190} bg="transparent" m={2} p={1} >
                         <Flex align="center">
                             <Icon name="info"/>
-                            <Heading as="h6" ml={2} fontSize="10px"><Link to="/:userId/boards">Boards</Link></Heading>
+                            <Heading as="h6" ml={2} fontSize="10px"><Link to="/boards">Boards</Link></Heading>
                         </Flex>
                     </Box>
                     <Box className="aside-btn" width={190} bg="transparent" m={2} p={1}>
@@ -53,9 +53,9 @@ function DashBoard(){
                     </Box>
                 </Box>
             </Flex>
-            <Switch>    
+            {/* <Switch>    
                 <Route path="/:userId/b/" component={DashBoard} />  
-            </Switch>
+            </Switch> */}
         </div>
     )
 }
