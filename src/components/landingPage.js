@@ -13,7 +13,7 @@ function LandingPage(){
                         </Heading>
                         <Text fontSize="xl" >Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.</Text>
                         <form action="submit email">
-                            <Flex>
+                            <Flex className="flexify">
                                 <Input mt={12} placeholder="Enter your email" color="black"/>
                                 <Button mt={12} ml={2} size="3lg" borderColor="red" variant="solid" variantColor="green" padding={2}>Sign Up-It's Free</Button>
                             </Flex>
