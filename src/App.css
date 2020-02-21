@@ -8,6 +8,10 @@
 }
 .header-primary nav{
   display: flex;
+
+  background-color: rgb(12,119,192);
+  color: white;
+
   background-color: rgb(2,106,167);
 }
 /* aside section containing boards and home */
@@ -35,6 +39,14 @@
   background-color: transparent;
 }
 
+
+}
+.special-btn{
+  background-color: #6D8EA2 ;
+}
+.css-gmuwbf{
+  margin-top:10px
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

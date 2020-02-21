@@ -9,7 +9,7 @@ import { ThemeProvider, CSSReset } from "@chakra-ui/core"
 ReactDOM.render(
 <ThemeProvider>
     <CSSReset/>
-<App />
+    <App />
 </ThemeProvider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

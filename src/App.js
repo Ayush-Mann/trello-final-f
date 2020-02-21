@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Home from "./components/home/home"
 import Login from "./components/signing/login"
 import Register from "./components/signing/register"
-import { ThemeProvider, Flex } from "@chakra-ui/core"
-
+import { ThemeProvider, Flex, List, ListItem } from "@chakra-ui/core"
 
 import './App.css';
 import LandingPage from './components/landingPage';
@@ -16,13 +15,13 @@ function App() {
     <Router>
       <div  className="header-primary">
         <nav>
-          <ul>
+          <List>
             <Flex>
-            <li><Link to ="/users/login">LogIn</Link></li>
-            <li><Link to ="/users/register">Register</Link></li>
-            <li><Link to ="/">Home</Link></li>
+            <ListItem m={4}><Link to ="/users/login">LogIn</Link></ListItem>
+            <ListItem m={4}><Link to ="/users/register">Register</Link></ListItem>
+            <ListItem m={4}><Link to ="/">Home</Link></ListItem>
             </Flex>
-          </ul>
+          </List>
         </nav>
       </div>
       
