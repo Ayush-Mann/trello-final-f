@@ -8,7 +8,8 @@
 }
 .header-primary nav{
   display: flex;
-  background-color: rgb(2,106,167);
+  background-color: rgb(12,119,192);
+  color: white;
 
 }
 .special-btn{
