@@ -9,7 +9,7 @@ function Login({h1, form}){
         <ColorModeProvider>
             <CSSReset />
             <Flex justify="center" align="center">
-                <form action="submit">
+                <form action="/home">
                     <Stack spacing={4} width={400}>
                         <FormControl isRequired>
                             <InputGroup>
