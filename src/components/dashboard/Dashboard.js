@@ -47,10 +47,11 @@ function DashBoard(){
                         <Text>--------</Text>
                     </Box>
                     <Text>LINKS</Text>
-                    <Box d="flex" alignItems="center" className="create-board-btn" rounded="md" width="15rem">
+                    <Link to="/board/createBoard" d="flex" alignItems="center" className="create-board-btn" rounded="md" width="15rem">
                         <IconButton aria-label="add button" icon="add" size="sm" p={0} color="grey.400"/>
                         <Text ml={2}>Create a Board</Text>
-                    </Box>
+                    </Link>
+                    
                 </Box>
             </Flex>
             {/* <Switch>    

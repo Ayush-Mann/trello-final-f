@@ -9,6 +9,7 @@ import { ThemeProvider, Flex, List, ListItem } from "@chakra-ui/core"
 import './App.css';
 import LandingPage from './components/landingPage';
 import DashBoard from './components/dashboard/Dashboard';
+import createBoardForm from "./components/dashboard/createBoardForm"
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         <Route path="/" component={LandingPage} exact/>
         <Route path="/users/login" component={Login} />
         <Route path="/users/register" component={Register} />
-        <Route path="/:userId/b/" component={DashBoard}/>
+        <Route path="/:userId/b/" component={DashBoard} exact/>
+        <Route path="/:userId/b/create" component={createBoardForm}/>
       </Switch>
       
 
